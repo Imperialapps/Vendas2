@@ -1,0 +1,1162 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+  <style>
+    :root {
+      --primary: 34 245 0;
+      --primary-foreground: 255 255 255;
+
+      --secondary: 255 255 255 / 0.05;
+
+      --background: 9 9 11;
+      --foreground: 250 250 250;
+
+      --border: 255 255 255 / 0.05;
+      --card: var(--background);
+
+      --muted: var(--secondary);
+      --muted-foreground: 171 171 171;
+
+      --radius: 0.7rem;
+    }
+  </style>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Início">
+  <meta property="og:site_name" content="Walking Store">
+  <meta property="og:description" content="vendas de nitros e impulsos telas de streaming etc tudo para voce !">
+  <meta property="og:image" content="https://cdn.mginex.com/storage/7a708ad1-96f3-44b8-86ca-ad6a4945f245.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="627">
+  <meta name="description" content="vendas de nitros e impulsos telas de streaming etc tudo para voce !">
+
+  <link rel="icon" type="image/x-icon" href="8a9fdba2-b52e-46f2-b2c2-1ccc912dfada.png">
+  <link rel="stylesheet" href="main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="css2" rel="stylesheet">
+
+  <!-- GOOGLE_TAG_MANAGER -->
+
+  
+
+  <!-- FACEBOOK_PIXEL -->
+  
+
+  <!-- CRISP -->
+  
+
+
+  <title>
+    Início - Walking Store
+  </title>
+  <script src=""></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          typography: {
+            DEFAULT: {
+              css: {
+                color: "rgb(var(--foreground))",
+                "--tw-prose-body": "rgb(var(--foreground))",
+                "--tw-prose-headings": "rgb(var(--foreground))",
+                "--tw-prose-lead": "rgb(var(--muted-foreground))",
+                "--tw-prose-links": "rgb(var(--primary))",
+                "--tw-prose-bold": "rgb(var(--foreground))",
+                "--tw-prose-counters": "rgb(var(--muted-foreground))",
+                "--tw-prose-bullets": "rgb(var(--muted-foreground))",
+                "--tw-prose-hr": "rgb(var(--border))",
+                "--tw-prose-quotes": "rgb(var(--foreground))",
+                "--tw-prose-quote-borders": "rgb(var(--border))",
+                "--tw-prose-captions": "rgb(var(--muted-foreground))",
+                "--tw-prose-code": "rgb(var(--foreground))",
+                "--tw-prose-pre-code": "rgb(var(--muted-foreground))",
+                "--tw-prose-pre-bg": "rgb(var(--muted))",
+                "--tw-prose-th-borders": "rgb(var(--border))",
+                "--tw-prose-td-borders": "rgb(var(--border))",
+              },
+            },
+          },
+          colors: {
+            primary: "rgb(var(--primary))",
+            "primary-foreground": "rgb(var(--primary-foreground))",
+            secondary: "rgb(var(--secondary))",
+            background: "rgb(var(--background))",
+            card: "rgb(var(--card))",
+            foreground: "rgb(var(--foreground))",
+            border: "rgb(var(--border))",
+            muted: "rgb(var(--muted))",
+            "muted-foreground": "rgb(var(--muted-foreground))",
+          },
+          borderRadius: {
+            xl: "calc(var(--radius) + 2px)",
+            lg: "var(--radius)",
+            md: "calc(var(--radius) - 2px)",
+            sm: "calc(var(--radius) - 4px)",
+            full: "500px",
+          },
+        },
+        container: {
+          center: true,
+          padding: "1rem",
+          screens: {
+            "2xl": "1500px",
+          },
+        },
+      },
+    };
+  </script>
+  <style type="text/tailwindcss">
+    @layer base {
+  * {
+  @apply border-border p-0 m-0 box-border border-border;
+  }
+
+  body {
+  font-family: 'Geist', sans-serif;
+  @apply bg-background text-foreground;
+  }
+
+  ::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+  @apply bg-transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+  @apply bg-primary rounded-md;
+  }
+  }
+  </style>
+</head>
+
+<body>
+  <header class="sticky top-0 backdrop-blur-md z-20 py-6 border-b bg-background/30">
+  <div class="container">
+    <nav class="flex items-center justify-between">
+      <a href="" class="flex items-center gap-2">
+        <img src="7a708ad1-96f3-44b8-86ca-ad6a4945f245.png" class="w-11 h-11 rounded-md object-cover" alt="vendas de nitros e impulsos telas de streaming etc tudo para voce !">
+        <div class="flex items-center gap-1 font-semibold tracking-tighter overflow-hidden">
+          <span class="line-clamp-1">Walking Store</span>
+          <div class="flex items-center justify-center relative">
+            <i data-lucide="badge" class="fill-blue-500 text-blue-500 size-5"></i>
+            <i data-lucide="check" class="absolute size-3.5 text-white"></i>
+          </div>
+        </div>
+      </a>
+      <div class="relative hidden lg:block" id="search-popover">
+        <div class="relative flex items-center w-[430px]">
+          <input placeholder="Procure pelo nome do produto" class="flex w-full border-2 border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:border-primary disabled:cursor-not-allowed disabled:opacity-50 pl-12 h-11 rounded-full" id="search">
+          <i data-lucide="search" class="absolute left-4 size-5 text-muted-foreground"></i>
+        </div>
+        <div class="absolute bg-background backdrop-blur-md w-full rounded-md top-20 border overflow-hidden z-50 max-h-96 overflow-y-auto hidden" id="search-items"></div>
+      </div>
+      <ul class="flex items-center gap-3">
+        <li>
+          <button id="cart-button" onclick="openCart()" type="button" target="_blank" class="relative inline-flex items-center gap-2 justify-center whitespace-nowrap rounded-md font-semibold transition-[background-color,color,transform,border-color] duration-150 ease-out-quad focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-white/10 hover:border-transparent hover:bg-white/10 hover:text-secondary-foreground h-10 px-5 text-[0.9rem] active:scale-[0.975] relative">
+            <i data-lucide="shopping-cart" class="mr-2 size-5"></i>
+            Carrinho
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  <div class="absolute inset-0 z-[-10] overflow-hidden">
+  <div class="size-[30rem] rounded-full bg-gradient-to-bl from-primary/15 blur-3xl absolute -top-1/3"></div>
+  <div class="hidden sm:block size-[45rem] rounded-full bg-gradient-to-bl from-primary/30 blur-3xl absolute -top-1/3 -right-1/2 sm:right-20"></div>
+  <div class="opacity-15 h-full w-full bg-[linear-gradient(to_right,rgb(var(--primary))_1px,transparent_1px),linear-gradient(to_bottom,rgb(var(--primary))_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_40%_55%_at_50%_0%,#000_30%,transparent_110%)]">
+    <i data-lucide="badge"></i>
+  </div>
+</div>
+  <div id="cart-drawer" class="w-screen h-screen flex items-center justify-end z-50 fixed top-0 left-0 group hidden" data-state="closed">
+  <div class="bg-background border-l h-full w-full lg:w-[500px] p-5 flex flex-col">
+    <h4 class="text-xl font-semibold tracking-tight mb-4">Carrinho</h4>
+    <div class="space-y-3 h-full flex flex-col" id="products-list"></div>
+    <div class="mt-auto">
+      <div class="bg-secondary w-full flex p-3 rounded-sm flex justify-between font-semibold mb-3" id="cart-pricing">
+        <div>Valor Total:</div>
+        <span>R$0,00</span>
+      </div>
+      <a href="checkout" class="inline-flex items-center gap-2 justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-10 px-5 py-2 w-full">
+        <i data-lucide="external-link" class="size-5"></i>
+        Ir para a compra
+      </a>
+    </div>
+  </div>
+</div>
+  <main id="__mginex">
+<!-- BARRA SUPERIOR RODANDO -->
+
+
+
+  <meta charset="UTF-8">
+  <title>Texto Rolando Vermelho e Preto</title>
+  <style>
+    .marquee-container {
+      width: 100%;
+      background: #006400; /* verde */
+      overflow: hidden;
+      white-space: nowrap;
+      box-sizing: border-box;
+      padding: 10px 0;
+    }
+
+    .marquee-content {
+      display: inline-block;
+      padding-left: 100%;
+      animation: scroll-left 40s linear infinite;
+    }
+
+    .marquee-content span {
+      margin: 0 30px;
+      font-weight: bold;
+      color: #ffffff; /* branco */
+      font-family: Arial, sans-serif;
+    }
+
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+  </style>
+
+
+
+<div class="marquee-container">
+  <div class="marquee-content">
+    <span>Suporte rápido e eficiente</span> •
+    <span>Produtos 100% originais e garantidos</span> •
+    <span>Compra segura, prática e transparente</span> •
+    <span>Entrega 100% automática e imediata</span> •
+    <span>Produtos com garantia estendida</span> •
+    <span>Descontos em todos os produtos</span> •
+  </div>
+</div>
+
+
+
+
+
+<style>
+  .particle {
+    position: fixed;
+    width: 4px;
+    height: 4px;
+    background-color: rgb(var(--primary));
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    animation: fadeOut 0.5s linear forwards;
+  }
+
+  .particle.click {
+    width: 8px;
+    height: 8px;
+    animation: explode 0.6s ease-out forwards;
+  }
+
+  @keyframes fadeOut {
+    to {
+      opacity: 0;
+      transform: translateY(-10px) scale(0.5);
+    }
+  }
+
+  @keyframes explode {
+    to {
+      opacity: 0;
+      transform: translateY(-20px) scale(1.5);
+    }
+  }
+</style>
+
+<!-- SCRIPT DAS PARTÍCULAS -->
+<script>
+  function createParticle(x, y, isClick = false) {
+    const particle = document.createElement("div");
+    particle.classList.add("particle");
+    if (isClick) particle.classList.add("click");
+
+    particle.style.left = `${x}px`;
+    particle.style.top = `${y}px`;
+    document.body.appendChild(particle);
+
+    setTimeout(() => particle.remove(), isClick ? 600 : 500);
+  }
+
+  document.addEventListener("mousemove", (e) => {
+    createParticle(e.clientX, e.clientY);
+  });
+
+  document.addEventListener("click", (e) => {
+    for (let i = 0; i < 6; i++) {
+      const offsetX = (Math.random() - 0.5) * 20;
+      const offsetY = (Math.random() - 0.5) * 20;
+      createParticle(e.clientX + offsetX, e.clientY + offsetY, true);
+    }
+  });
+</script>
+
+
+
+<!-- CONTEÚDO PRINCIPAL -->
+
+<!-- Seção centralizada com imagem -->
+<div style="display: flex; justify-content: center; align-items: center; margin-top: 30px; margin-bottom: 30px;">
+  <img src="Convite-walking-removebg-preview.png" alt="Banner Walking Store" style="max-width: 30%; height: auto;">
+</div>
+
+
+
+  <section>
+    <div class="container">
+      <h4 class="mb-8">
+        <span class="bg-primary/20 border-2 border-primary px-4 py-3 rounded-md text-sm md:text-[1.1rem] font-semibold">Categorias Populares</span>
+      </h4>
+      <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-7 gap-3">
+         <div style="opacity: 1; transform: none">
+    <a class="bg-secondary rounded-md aspect-[180/250] flex items-end justify-center py-8 px-2 relative before:content-[''] overflow-hidden cursor-pointer border-2 hover:border-primary hover:scale-[97%] transition-all" href="nitrada">
+        
+        <img src="bd9378bd-f27a-4d7e-9302-eb1fa7db9417.png" class="absolute top-0 left-0 w-full h-full select-none object-cover" style="mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, transparent 100%)">
+        
+        <span class="text-sm sm:text-lg font-semibold z-10 text-center uppercase">NITRADAS</span>
+    </a>
+</div>
+  <div style="opacity: 1; transform: none">
+    <a class="bg-secondary rounded-md aspect-[180/250] flex items-end justify-center py-8 px-2 relative before:content-[''] overflow-hidden cursor-pointer border-2 hover:border-primary hover:scale-[97%] transition-all" href="impulsos">
+        
+        <img src="80e628ea-4f4d-4261-a014-26997dd333eb.png" class="absolute top-0 left-0 w-full h-full select-none object-cover" style="mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, transparent 100%)">
+        
+        <span class="text-sm sm:text-lg font-semibold z-10 text-center uppercase">IMPULSOS</span>
+    </a>
+</div>
+  <div style="opacity: 1; transform: none">
+    <a class="bg-secondary rounded-md aspect-[180/250] flex items-end justify-center py-8 px-2 relative before:content-[''] overflow-hidden cursor-pointer border-2 hover:border-primary hover:scale-[97%] transition-all" href="assinatura">
+        
+        <img src="fc25b5c4-1276-413c-a6ab-0018eb6e96f8.png" class="absolute top-0 left-0 w-full h-full select-none object-cover" style="mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, transparent 100%)">
+        
+        <span class="text-sm sm:text-lg font-semibold z-10 text-center uppercase">ASSINATURAS</span>
+    </a>
+</div>
+  <div style="opacity: 1; transform: none">
+    <a class="bg-secondary rounded-md aspect-[180/250] flex items-end justify-center py-8 px-2 relative before:content-[''] overflow-hidden cursor-pointer border-2 hover:border-primary hover:scale-[97%] transition-all" href="bot-source">
+        
+        <img src="09edc39d-6cad-4225-a6b2-6e2c5eddf150.png" class="absolute top-0 left-0 w-full h-full select-none object-cover" style="mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, transparent 100%)">
+        
+        <span class="text-sm sm:text-lg font-semibold z-10 text-center uppercase">BOT SOURCE</span>
+    </a>
+</div>
+  <div style="opacity: 1; transform: none">
+    <a class="bg-secondary rounded-md aspect-[180/250] flex items-end justify-center py-8 px-2 relative before:content-[''] overflow-hidden cursor-pointer border-2 hover:border-primary hover:scale-[97%] transition-all" href="contas-antigas-discord">
+        
+        <img src="f4f2b0a8-c70d-41fd-8e99-827c0a17cdeb.gif" class="absolute top-0 left-0 w-full h-full select-none object-cover" style="mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, transparent 100%)">
+        
+        <span class="text-sm sm:text-lg font-semibold z-10 text-center uppercase">CONTAS ANTIGAS DISCORD</span>
+    </a>
+</div>
+  <div style="opacity: 1; transform: none">
+    <a class="bg-secondary rounded-md aspect-[180/250] flex items-end justify-center py-8 px-2 relative before:content-[''] overflow-hidden cursor-pointer border-2 hover:border-primary hover:scale-[97%] transition-all" href="game-pass-ultimate-pc">
+        
+        <img src="a40ad7d9-fcd4-4b33-900f-27c98e422a94.png" class="absolute top-0 left-0 w-full h-full select-none object-cover" style="mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, transparent 100%)">
+        
+        <span class="text-sm sm:text-lg font-semibold z-10 text-center uppercase">GAME PASS ULTIMATE PC</span>
+    </a>
+</div>
+  <div style="opacity: 1; transform: none">
+    <a class="bg-secondary rounded-md aspect-[180/250] flex items-end justify-center py-8 px-2 relative before:content-[''] overflow-hidden cursor-pointer border-2 hover:border-primary hover:scale-[97%] transition-all" href="membros-discord">
+        
+        <img src="5622e9d2-43c9-4e7e-b298-0327535e00e7.png" class="absolute top-0 left-0 w-full h-full select-none object-cover" style="mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, transparent 100%)">
+        
+        <span class="text-sm sm:text-lg font-semibold z-10 text-center uppercase">MEMBROS DISCORD</span>
+    </a>
+</div>
+ 
+      </div>
+    </div>
+  </section>
+
+  
+  <div id="products">
+    <section id="category-section" data-category-id="01978903-4602-7974-8f0e-b4bdfb97982c">
+      <div class="container">
+        <h4 class="mb-8">
+          <span class="bg-primary/20 border border-primary px-2 py-1 rounded text-xs md:text-sm font-semibold">
+            NITRADAS
+          </span>
+        </h4>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4" id="products-list"></div>
+      </div>
+    </section>
+  </div>
+  
+  <div id="products">
+    <section id="category-section" data-category-id="01978903-dd5a-72d7-a7d6-0f846fee1d01">
+      <div class="container">
+        <h4 class="mb-8">
+          <span class="bg-primary/20 border border-primary px-2 py-1 rounded text-xs md:text-sm font-semibold">
+            IMPULSOS
+          </span>
+        </h4>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4" id="products-list"></div>
+      </div>
+    </section>
+  </div>
+  
+  <div id="products">
+    <section id="category-section" data-category-id="01978903-fc33-7cad-ba7a-770f398bd267">
+      <div class="container">
+        <h4 class="mb-8">
+          <span class="bg-primary/20 border border-primary px-2 py-1 rounded text-xs md:text-sm font-semibold">
+            ASSINATURAS
+          </span>
+        </h4>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4" id="products-list"></div>
+      </div>
+    </section>
+  </div>
+  
+  <div id="products">
+    <section id="category-section" data-category-id="01978904-456b-7b74-a9df-099536d37729">
+      <div class="container">
+        <h4 class="mb-8">
+          <span class="bg-primary/20 border border-primary px-2 py-1 rounded text-xs md:text-sm font-semibold">
+            BOT SOURCE
+          </span>
+        </h4>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4" id="products-list"></div>
+      </div>
+    </section>
+  </div>
+  
+  <div id="products">
+    <section id="category-section" data-category-id="01983ce3-5478-7b51-92ec-9c7cec0f2e8f">
+      <div class="container">
+        <h4 class="mb-8">
+          <span class="bg-primary/20 border border-primary px-2 py-1 rounded text-xs md:text-sm font-semibold">
+            CONTAS ANTIGAS DISCORD
+          </span>
+        </h4>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4" id="products-list"></div>
+      </div>
+    </section>
+  </div>
+  
+  <div id="products">
+    <section id="category-section" data-category-id="01978905-4cff-7474-b366-048255fe9a56">
+      <div class="container">
+        <h4 class="mb-8">
+          <span class="bg-primary/20 border border-primary px-2 py-1 rounded text-xs md:text-sm font-semibold">
+            GAME PASS ULTIMATE PC
+          </span>
+        </h4>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4" id="products-list"></div>
+      </div>
+    </section>
+  </div>
+  
+  <div id="products">
+    <section id="category-section" data-category-id="019799a4-aa85-7cc3-94a3-cb8e901132eb">
+      <div class="container">
+        <h4 class="mb-8">
+          <span class="bg-primary/20 border border-primary px-2 py-1 rounded text-xs md:text-sm font-semibold">
+            MEMBROS DISCORD
+          </span>
+        </h4>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4" id="products-list"></div>
+      </div>
+    </section>
+  </div>
+  
+  <div id="products">
+    <section id="category-section" data-category-id="019799a8-4a0b-79e0-b981-f19221ff4e94">
+      <div class="container">
+        <h4 class="mb-8">
+          <span class="bg-primary/20 border border-primary px-2 py-1 rounded text-xs md:text-sm font-semibold">
+            ⚡ KEY FIVEM
+          </span>
+        </h4>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4" id="products-list"></div>
+      </div>
+    </section>
+  </div>
+  
+  <div id="products">
+    <section id="category-section" data-category-id="0197e1b6-3e8f-7789-a697-21d5af34f7a1">
+      <div class="container">
+        <h4 class="mb-8">
+          <span class="bg-primary/20 border border-primary px-2 py-1 rounded text-xs md:text-sm font-semibold">
+            💳 Jogos Em Sua Conta Steam
+          </span>
+        </h4>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4" id="products-list"></div>
+      </div>
+    </section>
+  </div>
+  
+
+
+<!-- BOTÃO DE ATENDIMENTO -->
+<style>
+  .whatsapp-support {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10000;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .whatsapp-support:hover {
+    transform: scale(1.05);
+  }
+
+  .whatsapp-support img {
+    max-width: 400px;
+    height: auto;
+  }
+</style>
+
+<a href="KTDiQIAoTW17uwetxdwDPD" target="_blank" class="whatsapp-support" title="Fale conosco no WhatsApp">
+  <img src="png" alt="Atendimento WhatsApp">
+</a>
+
+<!-- PARTICULAS -->
+<style>
+  .particle {
+    position: fixed;
+    width: 4px;
+    height: 4px;
+    background-color: rgb(var(--primary));
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    animation: fadeOut 0.5s linear forwards;
+  }
+
+  .particle.click {
+    width: 8px;
+    height: 8px;
+    animation: explode 0.6s ease-out forwards;
+  }
+
+  @keyframes fadeOut {
+    to {
+      opacity: 0;
+      transform: translateY(-10px) scale(0.5);
+    }
+  }
+
+  @keyframes explode {
+    to {
+      opacity: 0;
+      transform: translateY(-20px) scale(1.5);
+    }
+  }
+</style>
+
+<script>
+  function createParticle(x, y, isClick = false) {
+    const particle = document.createElement("div");
+    particle.classList.add("particle");
+    if (isClick) particle.classList.add("click");
+
+    particle.style.left = `${x}px`;
+    particle.style.top = `${y}px`;
+    document.body.appendChild(particle);
+
+    setTimeout(() => particle.remove(), isClick ? 600 : 500);
+  }
+
+  document.addEventListener("mousemove", (e) => {
+    createParticle(e.clientX, e.clientY);
+  });
+
+  document.addEventListener("click", (e) => {
+    for (let i = 0; i < 6; i++) {
+      const offsetX = (Math.random() - 0.5) * 20;
+      const offsetY = (Math.random() - 0.5) * 20;
+      createParticle(e.clientX + offsetX, e.clientY + offsetY, true);
+    }
+  });
+</script>
+
+
+
+
+  <meta charset="UTF-8">
+  <title>Notificações Fakes com Animação e Som</title>
+  <style>
+    .notification {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background-color: #000000; /* Preto */
+      color: white;
+      padding: 12px 16px;
+      border-radius: 12px;
+      font-family: Arial, sans-serif;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+      opacity: 0;
+      z-index: 9999;
+      transform: translateY(30px) scale(0.95);
+      animation: slideIn 0.6s ease-out forwards, shake 0.3s ease 0.6s;
+    }
+
+    .notification.hide {
+      animation: fadeOut 0.5s ease forwards;
+    }
+
+    .notification b {
+      color: #006400; /* Vermelho */
+    }
+
+    @keyframes slideIn {
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    @keyframes fadeOut {
+      to {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+    }
+
+    @keyframes shake {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-4px); }
+      50% { transform: translateX(4px); }
+      75% { transform: translateX(-2px); }
+      100% { transform: translateX(0); }
+    }
+  </style>
+
+
+
+<!-- Som da notificação -->
+<audio id="notif-audio" preload="auto">
+  <source src="https://www.myinstants.com/media/sounds/pop-up-off.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+const nomes = [
+  "Renan", "Lucas", "Ana", "Carlos", "Marina", "João", "Paula", "Mateus", "Beatriz", "Gabriel",
+  "black", "Pedro Malbec", "Full hs", "heitor_sussai", "PRIME", "Noauge", "She.", "Meno Eros7",
+  "niseabra123", "TremCabeleira.exe", "Ferreira7!💔", "Adriano Paraná", "paz terrivel2k harity",
+  "BRITONEX", "Seven", "maçazinha", "Bob-Bpl", "fanexty", "Sodre88", "Mim Ser Capudo", "Snap ϟ",
+  "ismelancolico", "Off", "Silva", "𝕵𝖔𝖌𝖆𝖉𝖔𝖗 𝕿𝖆𝖈𝖆𝕭𝖆𝖑𝖆", "𝓝𝓪𝓳𝓾", "𝔇𝔬𝔦𝔰𝔡💯🇯", "revirando games", "𝐿𝑔𝓏𝒾𝓃",
+  "• Silvin Almeida ✔", "Shelby"
+];
+
+const planos = ["14X IMPULSOS", "HBO MAX", "NETFLIX", "SPOTIFY", "AMAZON PRIME", "NITRADA 1 MES", "NITRADA 3 MESES", "LINK NITRO 1 MES", "LINK NITRO TRIMENSAL"];
+
+const tempos = ["há 2h", "há 15min", "há 30min", "há 1h", "agora mesmo", "há 5min"];
+
+
+  const audio = document.getElementById("notif-audio");
+
+  function criarNotificacao() {
+    const nome = nomes[Math.floor(Math.random() * nomes.length)];
+    const plano = planos[Math.floor(Math.random() * planos.length)];
+    const tempo = tempos[Math.floor(Math.random() * tempos.length)];
+
+    const div = document.createElement("div");
+    div.className = "notification";
+    div.innerHTML = `<b>${nome}</b> (${tempo})<br>assinou <b>${plano}</b>`;
+
+    document.body.appendChild(div);
+
+    // Toca o som
+    audio.currentTime = 0;
+    audio.play();
+
+    setTimeout(() => {
+      div.classList.add("hide");
+      setTimeout(() => document.body.removeChild(div), 500);
+    }, 5000);
+  }
+
+  function iniciarNotificacoes() {
+    criarNotificacao();
+    const intervalo = Math.random() * (15000 - 6000) + 6000;
+    setTimeout(iniciarNotificacoes, intervalo);
+  }
+
+  iniciarNotificacoes();
+</script>
+
+
+
+
+
+<style>
+  .snowflake {
+    position: fixed;
+    top: -10px;
+    color: white;
+    font-size: 1em;
+    user-select: none;
+    pointer-events: none;
+    z-index: 9999;
+    animation: fall linear infinite;
+  }
+
+  @keyframes fall {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh);
+      opacity: 0;
+    }
+  }
+</style>
+
+<script>
+  const quantidade = 30; // número de flocos
+
+  for (let i = 0; i < quantidade; i++) {
+    const floco = document.createElement('div');
+    floco.className = 'snowflake';
+    floco.textContent = '❄'; // pode trocar por: ❅, ❆, *
+
+    // posição e animação aleatória
+    floco.style.left = Math.random() * 100 + 'vw';
+    floco.style.fontSize = (Math.random() * 10 + 10) + 'px';
+    floco.style.animationDuration = (Math.random() * 5 + 5) + 's';
+    floco.style.opacity = Math.random();
+    floco.style.animationDelay = Math.random() * 5 + 's';
+
+    document.body.appendChild(floco);
+  }
+</script>
+
+<!-- //sistema de feedbeck  falso// -->
+
+
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avaliações dos Clientes</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0d0d0d;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .subtitulo {
+      font-size: 16px;
+      margin-bottom: 40px;
+    }
+
+    .carousel-container {
+      position: relative;
+      overflow: hidden;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .carousel {
+      display: flex;
+      flex-wrap: nowrap;
+      transition: transform 0.5s ease;
+    }
+
+    .card {
+      background-color: #1a1a1a;
+      border-radius: 8px;
+      padding: 20px;
+      box-sizing: border-box;
+      flex: 0 0 100%;
+      max-width: 100%;
+      text-align: left;
+    }
+
+    .card p {
+      margin: 5px 0;
+    }
+
+    .card .stars {
+      color: red;
+    }
+
+    .card .nome {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    .card .verificado {
+      font-size: 12px;
+      color: gray;
+    }
+
+    .card img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .botoes {
+      margin-top: 20px;
+    }
+
+    .botoes button {
+      background: none;
+      color: #fff;
+      border: none;
+      font-size: 24px;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+
+    .beneficios {
+      text-align: center;
+      margin-top: 40px;
+      color: #aaa;
+    }
+
+    .beneficios span {
+      margin: 0 10px;
+    }
+
+    @media (min-width: 768px) {
+      .card {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+      }
+    }
+  </style>
+
+
+
+<section>
+  <h2>O que nossos clientes dizem</h2>
+  <p class="subtitulo">Depoimentos reais de quem já comprou conosco</p>
+
+  <div class="carousel-container">
+    <div id="carousel" class="carousel">
+      <!-- Avaliações completas injetadas aqui -->
+    </div>
+    <div class="botoes">
+      <button onclick="prevSlide()">⟨</button>
+      <button onclick="nextSlide()">⟩</button>
+    </div>
+  </div>
+
+  <div class="beneficios">
+    <span>⚡ Entrega instantânea</span>
+    <span>🛡️ Garantia</span>
+    <span>🎧 Suporte 24/7</span>
+  </div>
+</section>
+
+<script>
+  const avaliacoes = [
+    "https://randomuser.me/api/portraits/men/10.jpg",
+    "https://randomuser.me/api/portraits/women/11.jpg",
+    "https://randomuser.me/api/portraits/men/12.jpg",
+    "https://randomuser.me/api/portraits/women/13.jpg",
+    "https://randomuser.me/api/portraits/men/14.jpg",
+    "https://randomuser.me/api/portraits/women/15.jpg",
+    "https://randomuser.me/api/portraits/men/16.jpg",
+    "https://randomuser.me/api/portraits/women/17.jpg",
+    "https://randomuser.me/api/portraits/men/18.jpg",
+    "https://randomuser.me/api/portraits/women/19.jpg"
+  ];
+
+  const feedbacks = [
+    { nome: "Lucas Almeida", texto: "Entrega super rápida e atendimento excelente. Recomendo demais!" },
+    { nome: "Fernanda Souza", texto: "Loja muito confiável. Já comprei mais de uma vez e sempre deu tudo certo." },
+    { nome: "Carlos Mendes", texto: "Atendimento impecável e suporte rápido. Voltarei a comprar!" },
+    { nome: "Juliana Freitas", texto: "Produto chegou funcionando perfeitamente. Muito bom!" },
+    { nome: "Pedro Lima", texto: "Ótima experiência de compra, recomendo a todos." },
+    { nome: "Amanda Rocha", texto: "Tive um problema e resolveram em minutos. Suporte incrível!" },
+    { nome: "João Martins", texto: "Melhor custo-benefício do mercado. Nota 10!" },
+    { nome: "Sabrina Costa", texto: "Super rápido! Produto chegou em poucos minutos." },
+    { nome: "Felipe Andrade", texto: "Fácil de comprar e excelente atendimento. Parabéns à equipe!" },
+    { nome: "Nathalia Ramos", texto: "Gostei muito! Produto entregue na hora e funcionando 100%." }
+  ];
+
+  const carousel = document.getElementById("carousel");
+
+  function renderSlides() {
+    carousel.innerHTML = feedbacks.map((av, i) => `
+      <div class="card">
+        <img src="${avaliacoes[i % avaliacoes.length]}" alt="Cliente ${av.nome}">
+        <p class="stars">★★★★★</p>
+        <p>"${av.texto}"</p>
+        <p class="nome">${av.nome}</p>
+        <p class="verificado">Cliente verificado</p>
+      </div>
+    `).join("");
+  }
+
+  renderSlides();
+
+  let index = 0;
+  function nextSlide() {
+    const cardsToShow = window.innerWidth >= 768 ? 3 : 1;
+    index = (index + 1) % (feedbacks.length - cardsToShow + 1);
+    carousel.style.transform = `translateX(-${index * (100 / cardsToShow)}%)`;
+  }
+
+  function prevSlide() {
+    const cardsToShow = window.innerWidth >= 768 ? 3 : 1;
+    index = (index - 1 + feedbacks.length - cardsToShow + 1) % (feedbacks.length - cardsToShow + 1);
+    carousel.style.transform = `translateX(-${index * (100 / cardsToShow)}%)`;
+  }
+
+  setInterval(nextSlide, 5000);
+</script>
+
+
+
+
+
+
+
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redes Sociais Laterais</title>
+
+  <!-- Ícones FontAwesome -->
+  <link rel="stylesheet" href="all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0d0d0d;
+      height: 100vh;
+    }
+
+    .social-sidebar {
+      position: fixed;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      background-color: #111;
+      padding: 10px 5px;
+      border-radius: 15px;
+      z-index: 999;
+    }
+
+    .social-sidebar .icon {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background-color: #1a1a1a;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+    .social-sidebar .icon:hover {
+      background-color: red;
+      color: white;
+    }
+  </style>
+
+
+
+  <!-- Menu lateral com redes sociais -->
+  <div class="social-sidebar">
+    <a href="https://www.instagram.com/walkingstore1/" class="icon" title="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="9Sk9Wfvnjr" class="icon" title="Discord" target="_blank"><i class="fa-brands fa-discord"></i></a>
+  </div>
+
+
+
+
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fundo com Imagem e Camada Escura</title>
+<style>
+  /* 🌌 Fundo com imagem + camada escura */
+  body {
+    margin: 0;
+    background: url('https://i.postimg.cc/QMjr5Wwv/Banner-walking.jpg') center top no-repeat #0d0d0d;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+    min-height: 100vh;
+  }
+
+  /* Camada escura por cima da imagem */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6); /* intensidade da escuridão */
+    z-index: -1;
+  }
+
+  /* Só para testar conteúdo visível */
+  main {
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    text-align: center;
+  }
+</style>
+
+
+  <main>
+    <h1>A melhor Loja digital para produtos  !</h1>
+    <p>Este é um site focado totalmente em trazer preços baixos para clientes .</p>
+  </main>
+
+
+</main>
+  <footer class="border-t border-white/5 bg-white/[2%] py-10 mt-20">
+  <div class="container space-y-6 flex flex-col">
+    <div class="grid gap-8 md:grid-cols-[2fr_3fr]">
+      <div class="space-y-4 pr-10">
+        <div class="space-y-3">
+          <img src="7a708ad1-96f3-44b8-86ca-ad6a4945f245.png" class="w-12 h-12 rounded-sm object-cover" alt="Walking Store">
+          <div>
+            <p class="text-sm text-muted-foreground mb-2">vendas de nitros e impulsos telas de streaming etc tudo para voce !</p>
+            
+            
+            <div class="text-sm text-muted-foreground">E-mail para contato:
+              <b>kauancarvalhodeoliveira8@gmail.com</b>
+            </div>
+            
+          </div>
+        </div>
+        <div class="flex items-center gap-4">
+          
+          <a class="flex items-center justify-center" target="_blank" href="9Sk9Wfvnjr">
+            <i class="fa-brands fa-discord text-2xl text-muted-foreground hover:text-foreground transition-colors"></i>
+          </a>
+          
+          <a class="flex items-center justify-center" target="_blank" href="KTDiQIAoTW17uwetxdwDPD">
+            <i class="fa-brands fa-whatsapp text-2xl text-muted-foreground hover:text-foreground transition-colors"></i>
+          </a>
+          
+          <a class="flex items-center justify-center" target="_blank" href="walkingstore1">
+            <i class="fa-brands fa-instagram text-2xl text-muted-foreground hover:text-foreground transition-colors"></i>
+          </a>
+          
+        </div>
+        <div class="font-medium text-xs text-muted-foreground">Copyright © Walking Store - All Rights Reserved</div>
+      </div>
+      <nav class="grid grid-cols-2 sm:grid-cols-3 gap-4 w-full">
+        <div>
+          <h2 class="font-medium text-foreground">Navegação</h2>
+          <ul class="fspace-y-1 mt-3">
+            <li>
+              <a class="text-sm text-muted-foreground hover:text-foreground hover:underline" href="">Avaliações</a>
+            </li>
+            <li>
+              <a class="text-sm text-muted-foreground hover:text-foreground hover:underline" href="">Catálogo</a>
+            </li>
+            <li>
+              <a class="text-sm text-muted-foreground hover:text-foreground hover:underline" href="checkout">Carrinho</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="font-medium text-foreground">Empresa</h2>
+          <ul class="fspace-y-1 mt-3">
+            <li>
+              <a class="text-sm text-muted-foreground hover:text-foreground hover:underline" href="terms">Termos e Serviços</a>
+            </li>
+            <li>
+              <a class="text-sm text-muted-foreground hover:text-foreground hover:underline" href="terms">Termos de uso</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="font-medium text-foreground">Conta</h2>
+          <ul class="fspace-y-1 mt-3">
+            <li>
+              <a class="text-sm text-muted-foreground hover:text-foreground hover:underline" href="">Minha conta</a>
+            </li>
+            <li>
+              <a class="text-sm text-muted-foreground hover:text-foreground hover:underline" href="">Minhas compras</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div data-orientation="horizontal" role="none" class="shrink-0 bg-border h-[1px] w-full"></div>
+    <div class="text-[0.9rem] text-center mx-auto">
+      Desenvolvido com <a class="text-primary hover:underline" href="9Sk9Wfvnjr">Walking Store</a>
+    </div>
+  </div>
+</footer>
+  <script src="lucide.min.js"></script>
+  <script src="https://kit.fontawesome.com/5bd6cfbd67.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="toastify-js"></script>
+  <link rel="stylesheet" type="text/css" href="toastify.min.css">
+  <script>
+    lucide.createIcons();
+  </script>
+  <script src="socket.io.min.js" integrity="sha384-mkQ3/7FUtcGyoppY6bz/PORYoGqOl7/aSUMn2ymDOJcapfS6PHqxhRTMh1RR0Q6+" crossorigin="anonymous"></script>
+  <script src="mginex.js"></script>
+  <script src="main.js"></script>
+  <script src="cart.js"></script>
+  <script src="dialog.js"></script>
+
+  <!-- LOADING INTEGRATIONS -->
+
+  <!-- UTMIFY -->
+  
+
+
+  <!-- GOOGLE_ANALYTICS -->
+  
+
+
+  <!-- LOADING INTEGRATIONS -->
+
+  
+
+
+</body></html><!-- ESTILO DAS PARTÍCULAS --><!-- // efeito de flocos --><!-- # SISTEMA DA LATERAL ICONES -->
